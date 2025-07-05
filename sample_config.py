@@ -4,11 +4,11 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8045871427:AAFI4FtQie4XYYSP3lVU053QvonzJTvjkqY")
     # The Telegram API things
-    USER_NAME = os.environ.get("USER_NAME", "")
+    USER_NAME = os.environ.get("USER_NAME", "26493906")
     APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("e8c040c5d682e1e7bf3a0ea52027cc60")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
@@ -26,7 +26,7 @@ class Config(object):
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "mongodb+srv://surajbhartiya3242:Rag6SHvR5CKD0ubo@cluster0.ggs0jdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     # https://t.me/hevcbay/951
     OUO_IO_API_KEY = ""
     # maximum message length in Telegram
